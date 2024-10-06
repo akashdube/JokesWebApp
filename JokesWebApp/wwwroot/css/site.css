@@ -1,0 +1,56 @@
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #ede5b8
+}
+*/
+
+html {
+  font-size: 14px;
+  font-family: 'Arial', sans-serif; /* Clean and sophisticated font */
+  color: #2c3e50; /* Dark, stylish color for text */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, 
+.btn:active:focus, 
+.btn-link.nav-link:focus, 
+.form-control:focus, 
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #ff6347; /* Tomato red for an upbeat yet refined touch */
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #f0e68c; /* Soft khaki for a warm, playful vibe */
+  font-family: 'Helvetica Neue', sans-serif; /* Sophisticated, clean font for the body */
+  color: #2f4f4f; /* Dark slate gray for elegant readability */
+}
